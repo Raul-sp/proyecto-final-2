@@ -1,37 +1,38 @@
 .nav{
     display: none;
-}
-.top{
+  }
+  .top{
     display: flex;
     justify-content: center;
-}
-.tay{
+  }
+  .tay{
     width: 30%;
     height: auto;
-}
-.Test{
+  }
+  .Test{
     display: none;
-}
-.imagen{
+  }
+  .imagen{
     width: 50vh;
     height: auto;
-}
-.box{
+  }
+  .box{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.box-A{
+    margin-top: 0%;
+  }
+  .box-A{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.box-B{
+  }
+  .box-B{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.boton{
+  }
+  .boton{
     display: flex;
     align-items: center;
     gap: 20px;
@@ -40,22 +41,22 @@
     color: white;
     text-decoration: none;
     border-radius: 10px;
-}
-.bot{
+  }
+  .bot{
     width: 35px;
     height: auto;
     background-color: white;
     border-radius: 30%;
-}
-@media screen and (min-width: 480px) {
+  }
+  @media screen and (min-width: 480px) {
     .box-A{
         display: none;
     }
-}
-@media screen and (min-width: 768px) {
+  }
+  @media screen and (min-width: 768px) {
     .nav{
         display: block;
-
+  
     }
     .tay{
         width: 20%;
@@ -87,4 +88,4 @@
     color: white;
     border-radius: 10px;
    }
-}
+  }
