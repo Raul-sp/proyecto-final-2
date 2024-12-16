@@ -84,6 +84,7 @@
    .Test{
     display: block;
     background-color: blueviolet;
+    color: white;
     border-radius: 10px;
    }
 }
